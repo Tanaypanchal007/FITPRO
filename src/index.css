@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* * {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: #ffff;
+}
+
+@theme {
+
+    /* Colors */
+    --color-primary-text: #000000;
+    --color-secondary-text: #ffffff;
+    --color-primary-bg: #fafafa;
+    --color-secondary-bg: #1e1e1e;
+    --color-red-bg: #f81a1d;
+
+    /* Fonts */
+    --font-orbitron: "Orbitron", sans-serif;
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-main: "Roboto", sans-serif;
+}
