@@ -1,11 +1,11 @@
 import HeroSection from "../components/home/HeroSection";
-import ShopCategory from "../components/home/ShopCategory";
+import NewCategory from "../components/home/NewCategory";
 
 const HomePage = () => {
   return (
     <main>
       <HeroSection />
-      <ShopCategory />
+      <NewCategory />
     </main>
   );
 };

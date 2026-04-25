@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Desktop Navbar */}
+      {/* Desktop Navbar ---------------------------------*/}
       <nav className="bg-black/70 backdrop-blur-xs backdrop-saturate-150 hidden lg:block sticky top-0 z-50">
         <div className="flex justify-between items-center px-6 py-2  mx-auto">
           <img src={logo} alt="Navbar Logo" className="w-30 h-17.5" />
@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Mobile Navbar */}
+      {/* Mobile Navbar ----------------------------------------*/}
       <div className="lg:hidden sticky top-0 z-50">
         {/* Top Bar */}
         <div className="flex justify-between items-center px-4 py-2 bg-black/40 backdrop-blur-xs backdrop-saturate-150">
