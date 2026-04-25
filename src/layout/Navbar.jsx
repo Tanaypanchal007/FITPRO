@@ -19,8 +19,8 @@ const Navbar = () => {
     <>
       {/* Desktop Navbar */}
       <nav className="bg-black/70 backdrop-blur-xs backdrop-saturate-150 hidden lg:block sticky top-0 z-50">
-        <div className="flex justify-between items-center px-6 py-2 max-w-7xl mx-auto">
-          <img src={logo} alt="Navbar Logo" className="w-[120px] h-[70px]" />
+        <div className="flex justify-between items-center px-6 py-2  mx-auto">
+          <img src={logo} alt="Navbar Logo" className="w-30 h-17.5" />
 
           <div className="flex items-center gap-6 text-[22px] font-montserrat">
             <NavLink to="/" className={linkStyle}>
@@ -53,12 +53,11 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Mobile Navbar (Single Wrapper) */}
-      <div className="lg:hidden sticky top-0">
+      {/* Mobile Navbar */}
+      <div className="lg:hidden sticky top-0 z-50">
         {/* Top Bar */}
-        <div className="flex justify-between items-center px-4 py-2 bg-black/40 backdrop-blur-xs backdrop-saturate-150 sticky top-0 z-50">
-          <img src={logo} alt="Navbar Logo" className="w-[100px] h-[60px]" />
-
+        <div className="flex justify-between items-center px-4 py-2 bg-black/40 backdrop-blur-xs backdrop-saturate-150">
+          <img src={logo} alt="Navbar Logo" className="w-25 h-15" />
           <NavLink to="/login" className="text-white text-2xl">
             <FiUser />
           </NavLink>
@@ -70,22 +69,18 @@ const Navbar = () => {
             <IoHomeOutline size={25} />
             <span className="text-[12px]">Home</span>
           </NavLink>
-
           <NavLink to="/about" className={linkStyle}>
             <IoInformationCircleOutline size={25} />
             <span className="text-[12px]">About</span>
           </NavLink>
-
           <NavLink to="/products" className={linkStyle}>
             <AiOutlineProduct size={25} />
             <span className="text-[12px]">Products</span>
           </NavLink>
-
           <NavLink to="/cart" className={linkStyle}>
             <IoCartOutline size={25} />
             <span className="text-[12px]">Cart</span>
           </NavLink>
-
           <NavLink to="/contact" className={linkStyle}>
             <IoIosContact size={25} />
             <span className="text-[12px]">Contact</span>
