@@ -17,7 +17,7 @@ body {
     /* Colors */
     --color-primary-text: #000000;
     --color-secondary-text: #ffffff;
-    --color-primary-bg: #fafafa;
+    --color-primary-bg: #f2f2f2;
     --color-secondary-bg: #1e1e1e;
     --color-red-bg: #f81a1d;
 
@@ -25,4 +25,6 @@ body {
     --font-orbitron: "Orbitron", sans-serif;
     --font-montserrat: "Montserrat", sans-serif;
     --font-main: "Roboto", sans-serif;
+
+    --shadow-3xl: 0px 0px 10px 1px gray;
 }
