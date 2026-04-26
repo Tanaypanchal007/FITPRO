@@ -1,7 +1,8 @@
 // import React from 'react'
-import shoes1 from "../../assets/Images/Shoes1.png";
-import shoes2 from "../../assets/Images/Shoes2.png";
-import shoes3 from "../../assets/Images/Shoes3.png";
+import shoes1 from "../../assets/Images/Shoes4.png";
+import shoes2 from "../../assets/Images/Shoes5.png";
+import shoes3 from "../../assets/Images/Shoes6.png";
+import shoes4 from "../../assets/Images/Shoes8.png";
 
 const TrandingProducts = () => {
   const ProductInformation = [
@@ -32,7 +33,7 @@ const TrandingProducts = () => {
     {
       key: 4,
       name: `SUNSHINE PUNK`,
-      image: `${shoes2}`,
+      image: `${shoes4}`,
       description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, fuga.`,
       price: `$42.00`,
       color: `#DC2626`,
@@ -51,7 +52,7 @@ const TrandingProducts = () => {
           </p>
         </div>
         <div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-[30px] px-5 ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-7.5 px-5 ">
             {ProductInformation.map((item, index) => {
               return (
                 <div
@@ -63,24 +64,24 @@ const TrandingProducts = () => {
                     <img
                       src="./products-image/nike-icon.png"
                       alt=""
-                      className="absolute -top-1 left-3 w-[70px]"
+                      className="absolute -top-1 left-3 w-17.5"
                     />
                   </div>
-                  <div className="flex flex-col items-center justify-center text-center  py-[15px] px-[5px]">
+                  <div className="flex flex-col items-center justify-center text-center  py-3.75 px-1.25">
                     <h1 className="font-mono font-bold text-gray-500 ">NIKE</h1>
-                    <h2 className="mt-[3px] font-semibold font-mono">
+                    <h2 className="mt-0.75 font-semibold font-mono">
                       {item.name}
                     </h2>
-                    <p className="text-sm mt-[3px] font-regular">
+                    <p className="text-sm mt-0.75 font-regular">
                       {item.description}
                     </p>
                   </div>
-                  <div className="flex items-center bg-red-bg relative pt-[5px]">
-                    <button className="w-[45%] text-white text-xs font-mono py-2 px-4">
+                  <div className="flex items-center bg-red-bg relative pt-1.25">
+                    <button className="w-[45%] text-white text-xs font-montserrat py-2 px-4">
                       BUY NOW
                     </button>
-                    <div className="bg-white text-black w-[55%] text-xs font-main text-center py-2 px-3 absolute -right-[10px] -skew-x-[30deg]">
-                      <span className="skew-x-[30deg] inline-block font-bold text-sm">
+                    <div className="bg-white text-black w-[55%] text-xs font-main text-center py-2 px-3 absolute -right-2.5 skew-x-[-30deg]">
+                      <span className="skew-x-30 inline-block font-bold text-sm">
                         {item.price}
                       </span>
                     </div>
